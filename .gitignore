@@ -1,0 +1,10 @@
+# 게임 데이터는 절대 올리지 않는다 — 패치 파일만 배포한다
+*.bin
+*.iso
+*.img
+*.SNB
+*.GSF
+*.SBB
+original/*
+!original/PUT_ORIGINAL_BIN_HERE.txt
+patched/
