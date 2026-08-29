@@ -7,6 +7,22 @@
 차이만 담은 BPS 패치 파일이며, 적용하려면 **본인이 소유한 정품 디스크에서
 추출한 BIN** 이 필요합니다.
 
+## 내려받기
+
+**[→ 최신 릴리스에서 받기](https://github.com/Kazenomori-alpha2/machi/releases/latest)**
+
+릴리스가 아직 없다면 아래로 받으셔도 됩니다.
+
+- **저장소 전체** — [main.zip](https://github.com/Kazenomori-alpha2/machi/archive/refs/heads/main.zip)
+  (`Code` → `Download ZIP` 과 같습니다)
+- **패치 파일만** —
+  [Disc1.bps](https://github.com/Kazenomori-alpha2/machi/raw/main/Machi_KO_v1.0_Disc1.bps) ·
+  [Disc2.bps](https://github.com/Kazenomori-alpha2/machi/raw/main/Machi_KO_v1.0_Disc2.bps)
+
+전체 ZIP 을 받으면 압축을 풀고 그 안의 `original` 폴더에 원본 BIN 을 넣은 뒤
+`APPLY_PATCH.bat` 을 실행하면 됩니다. 받은 파일이 온전한지는
+`SHA256SUMS.txt` 로 확인할 수 있습니다.
+
 ## 적용 방법
 
 1. `original` 폴더에 일본판 원본 Disc 1·2 의 `.bin` 을 넣습니다.
