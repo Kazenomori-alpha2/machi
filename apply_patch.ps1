@@ -1,4 +1,4 @@
-# 街 -運命の交差点- 한국어 패치 적용기
+﻿# 街 -運命の交差点- 한국어 패치 적용기
 # original/ 에 넣어 둔 일본판 원본 BIN 을 크기로 찾아 BPS 를 적용한다.
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
