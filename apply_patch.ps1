@@ -2,7 +2,7 @@
 # original/ (또는 이 폴더)에 넣어 둔 일본판 원본 BIN 을 크기로 찾아 BPS 를 적용한다.
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
-$ver  = 'v1.0'
+$ver  = 'v1.1'
 
 # 지원 원본 (크기로 판별)
 $sizes = @{ '700305648' = 'Disc1'; '610224048' = 'Disc2' }

@@ -1,4 +1,4 @@
-# 『街 ～運命の交差点～』 PS1 한국어 패치 v1.0
+# 『街 ～運命の交差点～』 PS1 한국어 패치 v1.1
 
 대상: **Sound Novel Evolution 3 - Machi - Unmei no Kousaten** 일본판
 (`SLPS-01845` / `SLPS-01846`, Chunsoft 1999)
@@ -16,8 +16,8 @@
 - **저장소 전체** — [main.zip](https://github.com/Kazenomori-alpha2/machi/archive/refs/heads/main.zip)
   (`Code` → `Download ZIP` 과 같습니다)
 - **패치 파일만** —
-  [Disc1.bps](https://github.com/Kazenomori-alpha2/machi/raw/main/Machi_KO_v1.0_Disc1.bps) ·
-  [Disc2.bps](https://github.com/Kazenomori-alpha2/machi/raw/main/Machi_KO_v1.0_Disc2.bps)
+  [Disc1.bps](https://github.com/Kazenomori-alpha2/machi/raw/main/Machi_KO_v1.1_Disc1.bps) ·
+  [Disc2.bps](https://github.com/Kazenomori-alpha2/machi/raw/main/Machi_KO_v1.1_Disc2.bps)
 
 전체 ZIP 을 받으면 압축을 풀고 그 안의 `original` 폴더에 원본 BIN 을 넣은 뒤
 `APPLY_PATCH.bat` 을 실행하면 됩니다. 받은 파일이 온전한지는
@@ -29,7 +29,7 @@
    파일명은 상관없습니다 — 크기로 자동 판별합니다.
 2. `APPLY_PATCH.bat` 을 더블클릭합니다.
 3. `patched` 폴더에 결과가 생깁니다.
-   `Machi_KO_v1.0_Disc1.bin/.cue`, `Machi_KO_v1.0_Disc2.bin/.cue`
+   `Machi_KO_v1.1_Disc1.bin/.cue`, `Machi_KO_v1.1_Disc2.bin/.cue`
 4. 에뮬레이터에서 **`.cue` 파일**을 엽니다 (`.bin` 이 아니라 `.cue` 입니다).
 
 디스크 하나만 넣어도 그것만 패치합니다. Windows 가 아니거나 배치 파일을
@@ -50,8 +50,28 @@
 
 | 디스크 | 크기 (바이트) | SHA-256 |
 |---|---:|---|
-| Disc 1 | 703,078,656 | `57474d4c7913d747e23dcd92d64c099f916173cd90a390ab3808781e71c7c177` |
-| Disc 2 | 610,675,632 | `0a04984cddec42a5ec4f630504ca2a6e35f64d9c83846baabf02827a8f111209` |
+| Disc 1 | 703,078,656 | `580bd0b4cd0b3653c0074df11d4a0424d381df7236887c1d2cda730c708b51b5` |
+| Disc 2 | 610,675,632 | `577214471cfc977c127f497532b4a498275b349516c293bfc7af149c50935b67` |
+
+## v1.1 변경 사항 (2026-08-31)
+
+번역 문안과 표시 품질을 다듬은 업데이트입니다. 세이브 호환에는 문제가
+없지만, **세이브 스테이트는 옛 시나리오 데이터를 물고 있으므로**
+시나리오를 다시 진입해 주세요.
+
+- 본문 안 **용어 해설·재핑 링크가 줄에 걸쳐 갈라지던 26곳**을 수리했습니다.
+  링크가 줄에 걸치면 밑줄 표시가 깨지고, 드물게 이후 진행이 멈출 수
+  있었습니다.
+- **선택지 메뉴가 창을 넘쳐 항목이 접히던 페이지들**(46곳)을 정리했습니다.
+- 전 편의 **줄바꿈·입력 대기(▶) 위치를 원문 기준으로 다듬었습니다**
+  (문장 중간에서 끊기던 곳 350여 곳).
+- **재핑 차트의 인물 이름 글꼴**을 새로 만들었습니다 — 뭉개지던 반각
+  글자를 전부 수제 도트로 교체.
+- 재핑 차트의 **「계속」·「완」 배지**가 잘리거나 번지던 문제를 고쳤습니다.
+- 시나리오 메뉴의 **「로드」 표기를 원작대로 「옵션」으로** 바로잡았습니다.
+- **일부 암호·퍼즐 연출을 한국어에서도 원작 의도대로 풀리도록**
+  재구성했습니다 (케이마 편).
+- 표기 교정: 함무라비, THE WRONG MAN 부제(우마/우시) 등.
 
 ## 번역 범위
 
